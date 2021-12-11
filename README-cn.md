@@ -43,7 +43,7 @@ const outCode = script.generate();
 ### 转换后代码
 
 ```javascript
-const a = 1;
+const a = 12;
 const b = 1;
 ```
 
