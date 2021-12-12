@@ -6,7 +6,7 @@
 
 [English version of README](README.md)
 
-GoGoCode 是一个基于 AST 的 JavaScript/Typescript/HTML 代码转换工具，但相较于同类，它可能提供了更符合直觉的 API
+GoGoCode 是一个基于 AST 的 JavaScript/Typescript/HTML 代码转换工具，但相较于同类，它可能提供了更符合直觉的 API 223334
 
 -   一套类 Jquery 的 API 用来查找和处理 AST
 -   一套和正则表达式接近的语法用来匹配和替换代码
@@ -16,6 +16,7 @@ GoGoCode 是一个基于 AST 的 JavaScript/Typescript/HTML 代码转换工具�
 ## 简介
 
 让我们通过一个简单的例子来看看上述查找和修改代码的 API 是如何使用的,并进行简单介绍
+让我们通过一个简单的例子来看看上述查找和修改代码的 API 是如何使用的,并进行简单介绍,代码转换很简单
 
 ### 需要转换的代码
 
@@ -40,7 +41,7 @@ script.replace('const b = $_$', `const b = ${aValue}`);
 const outCode = script.generate();
 ```
 
-### 转换后代码
+### 转换后代码 废弃
 
 ```javascript
 const a = 1;
